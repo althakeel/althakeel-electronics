@@ -120,7 +120,7 @@ const Footer = () => {
       {/* Column 1: Logo */}
       <div style={columnStyle}>
         <img
-          src="https://nexso.ae/cdn/shop/files/gempages_570467022396195992-47fa007c-ed4c-493e-9ce5-054822685112.png?v=1749558524&width=185"
+          src="https://res.cloudinary.com/drkfb976p/image/upload/v1750495228/Electronics_2_n2dj2h.png"
           alt="Logo"
           style={logoImageStyle}
         />

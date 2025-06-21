@@ -78,13 +78,13 @@ const Banner = () => {
           Explore Nexso’s innovative electronics designed to transform your digital lifestyle.
         </p>
         <button
-          style={buyNowButtonStyles}
-          onMouseEnter={handleBuyNowHover}
-          onMouseLeave={handleBuyNowLeave}
-          onClick={() => alert('Buy Now clicked!')}
-        >
-          Buy Now
-        </button>
+  style={buyNowButtonStyles}
+  onMouseEnter={handleBuyNowHover}
+  onMouseLeave={handleBuyNowLeave}
+  onClick={() => window.open('https://nexso.ae', '_blank')}
+>
+  Buy Now
+</button>
       </div>
     </section>
   );

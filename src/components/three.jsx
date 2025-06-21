@@ -13,21 +13,22 @@ const ThreePics = () => {
           <div className="image-wrapper">
             <img src="https://res.cloudinary.com/drkfb976p/image/upload/v1750329626/15_djwwrs.webp" alt="Gaming" />
           </div>
-          <h3>Gaming</h3>
+          <h3>Gaming Gear</h3>
         </div>
 
         <div className="threepics-card">
           <div className="image-wrapper">
             <img src="https://res.cloudinary.com/drkfb976p/image/upload/v1750329625/16_rpb7j4.webp" alt="Graphic Design" />
           </div>
-          <h3>Graphic Design</h3>
+          <h3>Creative Tools
+          </h3>
         </div>
 
         <div className="threepics-card">
           <div className="image-wrapper">
             <img src="https://res.cloudinary.com/drkfb976p/image/upload/v1750329625/17_qpqj7r.webp" alt="Office & Others" />
           </div>
-          <h3>Office & Others</h3>
+          <h3>Office Tech          </h3>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
-  const menuItems = ['Home', 'About', 'Product', 'Contact'];
+  const menuItems = ['Home','Product','About', 'Contact'];
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -114,7 +114,7 @@ const styles = {
     top: 0,
     left: 0,
     width: '100%',
-    height: '60px',
+    height: '80px',
     background: 'rgba(16,16,16, 0.85)',
     backdropFilter: 'saturate(180%) blur(20px)',
     WebkitBackdropFilter: 'saturate(180%) blur(20px)',
@@ -128,7 +128,7 @@ const styles = {
     fontFamily: "'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif",
   },
   logo: {
-    height: '24px',
+    height: '34px',
     cursor: 'pointer',
   },
   nav: {
@@ -166,9 +166,9 @@ const styles = {
   },
   button: {
     padding: '8px 20px',
-    border: '1px solid #0FF8CB',
+    // border: '1px solid #0FF8CB',
     backgroundColor: '#15F95B',
-    color: '#fff',
+    color: '#000',
     borderRadius: '20px',
     fontWeight: '600',
     fontSize: '14px',

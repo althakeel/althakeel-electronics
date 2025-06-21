@@ -4,7 +4,7 @@ const bannerStyles = {
   container: {
     width: '100%',
     height: '400px',
-    backgroundImage: 'url("https://cdn.shopify.com/s/files/1/0633/3756/2217/files/gempages_570467022396195992-d5b07e34-a351-4900-ab7c-b712575cb034.webp?v=1749985688")', // example image
+    backgroundImage: 'url("https://res.cloudinary.com/drkfb976p/image/upload/v1750524587/30_rti2hg.webp")', // example image
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',

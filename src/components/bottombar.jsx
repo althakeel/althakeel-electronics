@@ -12,9 +12,23 @@ const BottomBar = () => {
     userSelect: 'none',
   };
 
+  const linkStyle = {
+    color: '#1db954',
+    textDecoration: 'none',
+    marginLeft: '5px',
+  };
+
   return (
     <div style={style}>
-      &copy; {new Date().getFullYear()} Developed by Al Thakeel
+      &copy; {new Date().getFullYear()} Developed by
+      <a
+        href="https://www.althakeel.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={linkStyle}
+      >
+        Al Thakeel
+      </a>
     </div>
   );
 };
